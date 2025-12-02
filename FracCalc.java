@@ -1,10 +1,11 @@
-// Student Name
-// Period X
+// Tanisha Shankpal
+// Period 6
 // Fraction Calculator Project
 
 import java.util.*;
 
-// TODO: Description of what this program does goes here.
+// This is a progam that accepts an input and checks whether it is and calculation or a string.
+// If it is a string it prints the string and if it is a calculation it prints the answer.
 public class FracCalc {
 
    // It is best if we have only one console object for input
@@ -45,7 +46,9 @@ public class FracCalc {
    // Return the full line that the user typed in.
    public static String getInput() {
       // TODO: Implement this method
-       return "quit";
+      System.out.println("Enter: ");
+      String input = console.nextLine();
+      return input;
 
    }
    
@@ -82,7 +85,7 @@ public class FracCalc {
    public static String processExpression(String input) {
       // TODO: implement this method!
     
-        return "reduced result of expression";
+        return input;
 
    }
    
